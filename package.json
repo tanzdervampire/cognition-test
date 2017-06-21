@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "cognitive-services": "^0.1.2",
+    "dotenv": "^4.0.0",
+    "fast-levenshtein": "^2.0.6",
+    "node-fetch": "^1.7.1"
+  }
+}
