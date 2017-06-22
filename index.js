@@ -4,6 +4,7 @@ const fs = require('fs');
 const fetch = require('node-fetch');
 const levenshtein = require('fast-levenshtein');
 
+// TODO FIXME Reduce of empty array with no initial value
 const toLines = data => {
     return data.regions
         .map(region => region.lines)
@@ -71,6 +72,7 @@ const MatchFn = {
     },
 };
 
+// TODO FIXME Reduce of empty array with no initial value
 const findNamesForRoleLine = (data, hay, matchFn) => {
     return toLines(data)
         .filter(line => matchFn(data, hay, line))
@@ -89,10 +91,47 @@ const findPersons = (data, role, multiple = false) => {
     return findNamesForRoleLine(data, hay, multiple ? MatchFn.SECONDARY : MatchFn.MAIN);
 };
 
-const processData = data => {
+
+const normalizeName = (name, candidates) => {
+    const diffs = candidates
+        .map(current => {
+            return { name: current, distance: levenshtein.get(current, name) };
+        })
+        .sort((a, b) => a.distance - b.distance);
+
+    return diffs[0].name;
+};
+
+const normalizeNames = async (role, names) => {
+    // TODO FIXME Also filter location
+    const url = `http://localhost:3001/api/roles?roles=${role.replace(' ', '+')}`;
+    const response = await fetch(url, { accept: 'application/json' });
+    const data = await response.json();
+    const candidates = data[0].persons.map(p => p.name);
+    return names.map(name => normalizeName(name, candidates));
+};
+
+const normalizeCast = async cast => {
+    await Promise.all(Object.keys(cast).map(async role => {
+        if (!cast[role]) {
+            return Promise.resolve();
+        }
+
+        cast[role] = await normalizeNames(role, cast[role]);
+        return Promise.resolve();
+    }));
+
+    return cast;
+};
+
+const processData = async data => {
     console.log('=== RAW DATA ===');
     console.log(JSON.stringify(data));
     console.log('=== END RAW DATA ===');
+
+    console.log('=== RAW WORDS ===');
+    toLines(data).map(toText).forEach(str => console.log(str));
+    console.log('=== END RAW WORDS ===');
 
     const cast = {
         'Graf von Krolock': findPersons(data, 'Graf von Krolock'),
@@ -117,7 +156,11 @@ const processData = data => {
     console.log(JSON.stringify(cast, null, 4));
     console.log('=== END CAST ===');
 
-    // TODO FIXME match names
+    const normalized = await normalizeCast(cast);
+
+    console.log('=== NORMALIZED CAST ===');
+    console.log(JSON.stringify(normalized, null, 4));
+    console.log('=== END NORMALIZED CAST ===');
 };
 
 (async () => {
