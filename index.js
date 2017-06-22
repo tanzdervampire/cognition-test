@@ -4,11 +4,10 @@ const fs = require('fs');
 const fetch = require('node-fetch');
 const levenshtein = require('fast-levenshtein');
 
-// TODO FIXME Reduce of empty array with no initial value
 const toLines = data => {
     return data.regions
         .map(region => region.lines)
-        .reduce((a, b) => [...a, ...b]);
+        .reduce((a, b) => [...a, ...b], []);
 };
 
 const toText = line => line.words.map(w => w.text).join(' ');
@@ -72,13 +71,12 @@ const MatchFn = {
     },
 };
 
-// TODO FIXME Reduce of empty array with no initial value
 const findNamesForRoleLine = (data, hay, matchFn) => {
     return toLines(data)
         .filter(line => matchFn(data, hay, line))
         .map(toText)
         .map(text => text.split(/\s*[,.]\s*/))
-        .reduce((a,b) => [...a, ...b])
+        .reduce((a,b) => [...a, ...b], [])
         .filter(name => name.trim().length !== 0);
 };
 
@@ -103,7 +101,6 @@ const normalizeName = (name, candidates) => {
 };
 
 const normalizeNames = async (role, names) => {
-    // TODO FIXME Also filter location
     const url = `http://localhost:3001/api/roles?roles=${role.replace(' ', '+')}`;
     const response = await fetch(url, { accept: 'application/json' });
     const data = await response.json();
