@@ -1,0 +1,24 @@
+1. Reduce regions to lines and lines to words.join() → fragments
+2. Sort fragments by y-value
+3. Group fragments by similar y-value
+4. Within such groups, order by x-value
+5. Look for main cast and pick them out.
+6. Among the main cast, calculate the (average) line spacing.
+7. Find the major headings (Tanzsolisten, Gesangssolisten, …)
+8. For all fragment groups, assign them to a heading by checking
+    a. that their y-value is higher than that of the heading
+    b. after the first row they have more or less the average line space distance
+9. Parse assigned fragemnt groups into names.
+
+
+TODO:
+- remove .,/\ form names
+- doesn't deal with Munich screen layout (next to each other)
+- idea: check if main cast roles / names are always two regions
+    → if so, use region distance and then exclude them
+    → if ensemble is always their own region only process that one
+
+CONSTRAINTS:
+- Regions are instable both in size and number.
+- Not all headings can always be found.
+- It is known which headings contain how many persons.

@@ -1,0 +1,140 @@
+{
+    "language": "zh-Hant",
+    "textAngle": 0.0,
+    "orientation": "Left",
+    "regions": [
+        {
+            "boundingBox": "233,500,277,408",
+            "lines": [
+                {
+                    "boundingBox": "366,500,18,167",
+                    "words": [
+                        {
+                            "boundingBox": "370,500,14,39",
+                            "text": "Milan"
+                        },
+                        {
+                            "boundingBox": "370,544,11,25",
+                            "text": "van"
+                        },
+                        {
+                            "boundingBox": "366,574,16,93",
+                            "text": "Waardenbute"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "412,517,15,98",
+                    "words": [
+                        {
+                            "boundingBox": "414,517,11,7",
+                            "text": "\u300a"
+                        },
+                        {
+                            "boundingBox": "414,524,13,13",
+                            "text": "2"
+                        },
+                        {
+                            "boundingBox": "413,573,11,8",
+                            "text": "n"
+                        },
+                        {
+                            "boundingBox": "412,595,11,16",
+                            "text": "an"
+                        },
+                        {
+                            "boundingBox": "412,612,13,3",
+                            "text": "\u4e00"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "434,503,15,89",
+                    "words": [
+                        {
+                            "boundingBox": "435,503,14,27",
+                            "text": "Viet"
+                        },
+                        {
+                            "boundingBox": "434,566,13,26",
+                            "text": "t23"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "456,504,14,54",
+                    "words": [
+                        {
+                            "boundingBox": "457,504,13,19",
+                            "text": "NO"
+                        },
+                        {
+                            "boundingBox": "457,536,7,4",
+                            "text": "\u00b7"
+                        },
+                        {
+                            "boundingBox": "456,545,13,13",
+                            "text": "W"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "496,548,14,58",
+                    "words": [
+                        {
+                            "boundingBox": "498,548,12,22",
+                            "text": "NA"
+                        },
+                        {
+                            "boundingBox": "496,600,13,6",
+                            "text": "t"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "233,621,16,63",
+                    "words": [
+                        {
+                            "boundingBox": "233,621,16,56",
+                            "text": "Oieigent"
+                        },
+                        {
+                            "boundingBox": "235,680,10,4",
+                            "text": "\u4e00"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "234,772,14,20",
+                    "words": [
+                        {
+                            "boundingBox": "234,772,14,20",
+                            "text": "tet"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "271,857,14,51",
+                    "words": [
+                        {
+                            "boundingBox": "272,857,13,7",
+                            "text": "\u300c"
+                        },
+                        {
+                            "boundingBox": "272,865,13,4",
+                            "text": "\u4e00"
+                        },
+                        {
+                            "boundingBox": "271,869,14,36",
+                            "text": "eutA"
+                        },
+                        {
+                            "boundingBox": "271,904,14,4",
+                            "text": "\u4e00"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

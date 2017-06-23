@@ -1,0 +1,615 @@
+{
+    "language": "en",
+    "textAngle": 0.0,
+    "orientation": "Up",
+    "regions": [
+        {
+            "boundingBox": "210,47,340,214",
+            "lines": [
+                {
+                    "boundingBox": "398,47,28,14",
+                    "words": [
+                        {
+                            "boundingBox": "398,47,28,14",
+                            "text": "DER"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "337,162,108,13",
+                    "words": [
+                        {
+                            "boundingBox": "337,162,30,13",
+                            "text": "DAS"
+                        },
+                        {
+                            "boundingBox": "373,162,72,13",
+                            "text": "MUSICAL"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "210,208,340,19",
+                    "words": [
+                        {
+                            "boundingBox": "210,208,86,19",
+                            "text": "Dienstag,"
+                        },
+                        {
+                            "boundingBox": "304,209,25,14",
+                            "text": "31."
+                        },
+                        {
+                            "boundingBox": "336,209,64,15",
+                            "text": "Januar"
+                        },
+                        {
+                            "boundingBox": "405,210,48,16",
+                            "text": "2017,"
+                        },
+                        {
+                            "boundingBox": "460,210,49,14",
+                            "text": "18:30"
+                        },
+                        {
+                            "boundingBox": "516,209,34,14",
+                            "text": "Uhr"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "330,244,98,17",
+                    "words": [
+                        {
+                            "boundingBox": "330,244,98,17",
+                            "text": "Besetzunq"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "boundingBox": "208,275,163,172",
+            "lines": [
+                {
+                    "boundingBox": "240,275,131,13",
+                    "words": [
+                        {
+                            "boundingBox": "240,275,34,12",
+                            "text": "Graf"
+                        },
+                        {
+                            "boundingBox": "278,278,28,10",
+                            "text": "von"
+                        },
+                        {
+                            "boundingBox": "312,276,59,12",
+                            "text": "Krolock"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "327,295,44,13",
+                    "words": [
+                        {
+                            "boundingBox": "327,295,44,13",
+                            "text": "Sarah"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "324,315,47,12",
+                    "words": [
+                        {
+                            "boundingBox": "324,315,47,12",
+                            "text": "Alfred"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "208,333,163,13",
+                    "words": [
+                        {
+                            "boundingBox": "208,333,77,12",
+                            "text": "Professor"
+                        },
+                        {
+                            "boundingBox": "289,333,82,13",
+                            "text": "Abronsius"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "316,353,54,16",
+                    "words": [
+                        {
+                            "boundingBox": "316,353,54,16",
+                            "text": "Chagal"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "319,373,51,16",
+                    "words": [
+                        {
+                            "boundingBox": "319,373,51,16",
+                            "text": "Magda"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "312,393,59,13",
+                    "words": [
+                        {
+                            "boundingBox": "312,393,59,13",
+                            "text": "Herbert"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "301,413,69,14",
+                    "words": [
+                        {
+                            "boundingBox": "301,413,69,14",
+                            "text": "Rebecca"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "313,434,57,13",
+                    "words": [
+                        {
+                            "boundingBox": "313,434,57,13",
+                            "text": "Koukol"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "boundingBox": "394,277,179,171",
+            "lines": [
+                {
+                    "boundingBox": "395,277,130,12",
+                    "words": [
+                        {
+                            "boundingBox": "395,277,55,12",
+                            "text": "Mathias"
+                        },
+                        {
+                            "boundingBox": "456,277,69,12",
+                            "text": "Edenborn"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "394,296,134,15",
+                    "words": [
+                        {
+                            "boundingBox": "394,296,63,12",
+                            "text": "Veronica"
+                        },
+                        {
+                            "boundingBox": "462,296,66,15",
+                            "text": "Appeddu"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "394,315,125,13",
+                    "words": [
+                        {
+                            "boundingBox": "394,315,32,12",
+                            "text": "Tom"
+                        },
+                        {
+                            "boundingBox": "431,318,26,9",
+                            "text": "van"
+                        },
+                        {
+                            "boundingBox": "462,316,24,12",
+                            "text": "der"
+                        },
+                        {
+                            "boundingBox": "490,316,29,12",
+                            "text": "Ven"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "394,334,112,13",
+                    "words": [
+                        {
+                            "boundingBox": "394,334,42,13",
+                            "text": "Victor"
+                        },
+                        {
+                            "boundingBox": "441,335,65,12",
+                            "text": "Petersen"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "394,354,124,13",
+                    "words": [
+                        {
+                            "boundingBox": "394,354,54,13",
+                            "text": "Nicolas"
+                        },
+                        {
+                            "boundingBox": "452,354,66,13",
+                            "text": "Tenerani"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "394,374,105,13",
+                    "words": [
+                        {
+                            "boundingBox": "394,374,51,13",
+                            "text": "Karolin"
+                        },
+                        {
+                            "boundingBox": "451,374,48,13",
+                            "text": "Konert"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "394,394,179,16",
+                    "words": [
+                        {
+                            "boundingBox": "394,394,39,13",
+                            "text": "Milan"
+                        },
+                        {
+                            "boundingBox": "438,397,26,10",
+                            "text": "van"
+                        },
+                        {
+                            "boundingBox": "470,395,103,15",
+                            "text": "Waardenburg"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "394,414,108,14",
+                    "words": [
+                        {
+                            "boundingBox": "394,414,41,13",
+                            "text": "Merel"
+                        },
+                        {
+                            "boundingBox": "440,415,62,13",
+                            "text": "Zeeman"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "394,435,99,13",
+                    "words": [
+                        {
+                            "boundingBox": "394,435,42,13",
+                            "text": "Paolo"
+                        },
+                        {
+                            "boundingBox": "442,435,51,13",
+                            "text": "Bianca"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "boundingBox": "34,464,681,496",
+            "lines": [
+                {
+                    "boundingBox": "313,464,127,17",
+                    "words": [
+                        {
+                            "boundingBox": "313,464,127,17",
+                            "text": "Tanzsolisten"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "191,501,372,19",
+                    "words": [
+                        {
+                            "boundingBox": "191,501,43,14",
+                            "text": "Kevin"
+                        },
+                        {
+                            "boundingBox": "240,502,61,16",
+                            "text": "Schmid,"
+                        },
+                        {
+                            "boundingBox": "307,502,50,14",
+                            "text": "Csaba"
+                        },
+                        {
+                            "boundingBox": "363,503,43,17",
+                            "text": "Nagy,"
+                        },
+                        {
+                            "boundingBox": "412,504,87,14",
+                            "text": "Alessandra"
+                        },
+                        {
+                            "boundingBox": "505,504,58,14",
+                            "text": "Bizzarri"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "291,532,171,20",
+                    "words": [
+                        {
+                            "boundingBox": "291,532,171,20",
+                            "text": "Gesanqssolisten"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "233,571,286,21",
+                    "words": [
+                        {
+                            "boundingBox": "233,571,58,15",
+                            "text": "Sander"
+                        },
+                        {
+                            "boundingBox": "295,576,28,10",
+                            "text": "van"
+                        },
+                        {
+                            "boundingBox": "329,572,62,17",
+                            "text": "Wissen,"
+                        },
+                        {
+                            "boundingBox": "397,573,50,15",
+                            "text": "Stefan"
+                        },
+                        {
+                            "boundingBox": "454,574,65,18",
+                            "text": "Mosonyi"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "299,611,152,19",
+                    "words": [
+                        {
+                            "boundingBox": "299,611,152,19",
+                            "text": "Tanzensemble"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "132,655,487,23",
+                    "words": [
+                        {
+                            "boundingBox": "132,655,49,15",
+                            "text": "Jacob"
+                        },
+                        {
+                            "boundingBox": "187,655,61,19",
+                            "text": "Fearey,"
+                        },
+                        {
+                            "boundingBox": "255,656,52,15",
+                            "text": "Stefan"
+                        },
+                        {
+                            "boundingBox": "313,656,71,20",
+                            "text": "Mosonyi,"
+                        },
+                        {
+                            "boundingBox": "391,657,50,16",
+                            "text": "Nicola"
+                        },
+                        {
+                            "boundingBox": "446,658,55,18",
+                            "text": "Trazzi,"
+                        },
+                        {
+                            "boundingBox": "507,659,47,16",
+                            "text": "Astrid"
+                        },
+                        {
+                            "boundingBox": "561,660,58,18",
+                            "text": "Gollob,"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "186,677,378,21",
+                    "words": [
+                        {
+                            "boundingBox": "186,677,41,15",
+                            "text": "Katie"
+                        },
+                        {
+                            "boundingBox": "232,678,55,18",
+                            "text": "Allday,"
+                        },
+                        {
+                            "boundingBox": "294,678,53,16",
+                            "text": "Sanne"
+                        },
+                        {
+                            "boundingBox": "353,679,110,19",
+                            "text": "Buskermolen,"
+                        },
+                        {
+                            "boundingBox": "470,681,51,15",
+                            "text": "Nicole"
+                        },
+                        {
+                            "boundingBox": "527,682,37,15",
+                            "text": "Ollio"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "273,718,202,23",
+                    "words": [
+                        {
+                            "boundingBox": "273,718,202,23",
+                            "text": "Gesanqsensemble"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "34,767,681,28",
+                    "words": [
+                        {
+                            "boundingBox": "34,767,69,17",
+                            "text": "Gonzalo"
+                        },
+                        {
+                            "boundingBox": "110,768,74,20",
+                            "text": "Campos,"
+                        },
+                        {
+                            "boundingBox": "191,768,42,17",
+                            "text": "Mat\u00e9"
+                        },
+                        {
+                            "boundingBox": "239,769,64,20",
+                            "text": "Gyenei,"
+                        },
+                        {
+                            "boundingBox": "310,770,56,16",
+                            "text": "Pascal"
+                        },
+                        {
+                            "boundingBox": "373,770,66,21",
+                            "text": "H\u00f6wing,"
+                        },
+                        {
+                            "boundingBox": "446,772,57,17",
+                            "text": "Marina"
+                        },
+                        {
+                            "boundingBox": "510,773,76,21",
+                            "text": "Maniglio,"
+                        },
+                        {
+                            "boundingBox": "592,775,38,20",
+                            "text": "Anja"
+                        },
+                        {
+                            "boundingBox": "635,776,80,19",
+                            "text": "Wendzel,"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "208,792,330,23",
+                    "words": [
+                        {
+                            "boundingBox": "208,792,87,17",
+                            "text": "Samantha"
+                        },
+                        {
+                            "boundingBox": "301,793,127,22",
+                            "text": "Harris-Hughes,"
+                        },
+                        {
+                            "boundingBox": "435,795,43,17",
+                            "text": "Fleur"
+                        },
+                        {
+                            "boundingBox": "483,796,55,17",
+                            "text": "Alders"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "329,830,88,24",
+                    "words": [
+                        {
+                            "boundingBox": "329,830,88,24",
+                            "text": "Diriqent"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "324,872,96,18",
+                    "words": [
+                        {
+                            "boundingBox": "324,872,44,17",
+                            "text": "Boris"
+                        },
+                        {
+                            "boundingBox": "374,873,46,17",
+                            "text": "Ritter"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "61,911,622,33",
+                    "words": [
+                        {
+                            "boundingBox": "61,911,27,20",
+                            "text": "Es"
+                        },
+                        {
+                            "boundingBox": "96,912,63,26",
+                            "text": "spielt"
+                        },
+                        {
+                            "boundingBox": "167,913,40,21",
+                            "text": "das"
+                        },
+                        {
+                            "boundingBox": "216,914,115,22",
+                            "text": "Orchester"
+                        },
+                        {
+                            "boundingBox": "338,916,40,21",
+                            "text": "des"
+                        },
+                        {
+                            "boundingBox": "387,917,65,27",
+                            "text": "Stage"
+                        },
+                        {
+                            "boundingBox": "460,918,114,22",
+                            "text": "Palladium"
+                        },
+                        {
+                            "boundingBox": "582,920,101,21",
+                            "text": "Theaters"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "198,944,276,16",
+                    "words": [
+                        {
+                            "boundingBox": "198,950,6,3",
+                            "text": "-"
+                        },
+                        {
+                            "boundingBox": "208,944,74,16",
+                            "text": "kurzfristige"
+                        },
+                        {
+                            "boundingBox": "287,945,152,15",
+                            "text": "Besetzunas\u00e4nderunae"
+                        },
+                        {
+                            "boundingBox": "453,952,7,8",
+                            "text": "v"
+                        },
+                        {
+                            "boundingBox": "469,952,5,8",
+                            "text": "r"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

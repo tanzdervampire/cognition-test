@@ -1,0 +1,301 @@
+{
+    "language": "de",
+    "textAngle": 1.2999999999999614,
+    "orientation": "Up",
+    "regions": [
+        {
+            "boundingBox": "255,33,153,301",
+            "lines": [
+                {
+                    "boundingBox": "332,33,9,16",
+                    "words": [
+                        {
+                            "boundingBox": "332,33,9,16",
+                            "text": "1"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "291,136,69,17",
+                    "words": [
+                        {
+                            "boundingBox": "291,136,37,17",
+                            "text": "TANZ"
+                        },
+                        {
+                            "boundingBox": "333,137,27,16",
+                            "text": "DER"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "279,266,97,13",
+                    "words": [
+                        {
+                            "boundingBox": "279,266,28,13",
+                            "text": "DAS"
+                        },
+                        {
+                            "boundingBox": "311,266,65,13",
+                            "text": "MUSICAL"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "255,298,153,17",
+                    "words": [
+                        {
+                            "boundingBox": "255,298,59,17",
+                            "text": "Sonntag"
+                        },
+                        {
+                            "boundingBox": "319,298,21,14",
+                            "text": "10."
+                        },
+                        {
+                            "boundingBox": "345,298,21,14",
+                            "text": "Juli"
+                        },
+                        {
+                            "boundingBox": "371,298,37,14",
+                            "text": "9016"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "295,320,69,14",
+                    "words": [
+                        {
+                            "boundingBox": "295,320,69,14",
+                            "text": "19:301-fr"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "boundingBox": "218,389,108,121",
+            "lines": [
+                {
+                    "boundingBox": "233,389,91,11",
+                    "words": [
+                        {
+                            "boundingBox": "233,389,23,11",
+                            "text": "Graf"
+                        },
+                        {
+                            "boundingBox": "283,389,41,11",
+                            "text": "Krobck"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "291,422,34,11",
+                    "words": [
+                        {
+                            "boundingBox": "291,422,34,11",
+                            "text": "Ntred"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "218,438,50,10",
+                    "words": [
+                        {
+                            "boundingBox": "218,438,50,10",
+                            "text": "Profess\u00ab"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "285,485,41,10",
+                    "words": [
+                        {
+                            "boundingBox": "285,485,41,10",
+                            "text": "Haben"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "280,500,46,10",
+                    "words": [
+                        {
+                            "boundingBox": "280,500,46,10",
+                            "text": "Retxcca"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "boundingBox": "339,389,92,137",
+            "lines": [
+                {
+                    "boundingBox": "368,389,38,11",
+                    "words": [
+                        {
+                            "boundingBox": "368,389,38,11",
+                            "text": "Sebert"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "339,406,48,11",
+                    "words": [
+                        {
+                            "boundingBox": "339,406,48,11",
+                            "text": "Verc\u00abxa"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "339,422,92,11",
+                    "words": [
+                        {
+                            "boundingBox": "339,422,24,10",
+                            "text": "Tan"
+                        },
+                        {
+                            "boundingBox": "388,422,19,11",
+                            "text": "t:kr"
+                        },
+                        {
+                            "boundingBox": "409,423,22,10",
+                            "text": "Ven"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "340,438,76,13",
+                    "words": [
+                        {
+                            "boundingBox": "340,438,31,10",
+                            "text": "Pascal"
+                        },
+                        {
+                            "boundingBox": "375,439,41,12",
+                            "text": "HO.\u2022.'hg"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "340,470,75,10",
+                    "words": [
+                        {
+                            "boundingBox": "340,470,29,10",
+                            "text": "'&rel"
+                        },
+                        {
+                            "boundingBox": "372,470,43,10",
+                            "text": "Zeeman"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "382,501,35,10",
+                    "words": [
+                        {
+                            "boundingBox": "382,501,35,10",
+                            "text": "K\u00f6stler"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "341,515,64,11",
+                    "words": [
+                        {
+                            "boundingBox": "341,515,28,10",
+                            "text": "PO'"
+                        },
+                        {
+                            "boundingBox": "372,516,33,10",
+                            "text": "Binca"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "boundingBox": "177,565,322,246",
+            "lines": [
+                {
+                    "boundingBox": "335,565,66,12",
+                    "words": [
+                        {
+                            "boundingBox": "335,565,38,12",
+                            "text": "Gyenei."
+                        },
+                        {
+                            "boundingBox": "377,566,24,10",
+                            "text": "Katie"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "362,662,77,10",
+                    "words": [
+                        {
+                            "boundingBox": "362,662,30,10",
+                            "text": "Tram."
+                        },
+                        {
+                            "boundingBox": "396,663,43,9",
+                            "text": "Vercna"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "307,677,23,8",
+                    "words": [
+                        {
+                            "boundingBox": "307,677,23,8",
+                            "text": "VOO"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "218,738,45,10",
+                    "words": [
+                        {
+                            "boundingBox": "218,738,45,10",
+                            "text": "We-dzd."
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "177,796,322,15",
+                    "words": [
+                        {
+                            "boundingBox": "177,796,13,9",
+                            "text": "Es"
+                        },
+                        {
+                            "boundingBox": "193,796,31,11",
+                            "text": "spielt"
+                        },
+                        {
+                            "boundingBox": "228,796,21,10",
+                            "text": "das"
+                        },
+                        {
+                            "boundingBox": "252,797,59,11",
+                            "text": "Orchester"
+                        },
+                        {
+                            "boundingBox": "340,797,33,12",
+                            "text": "Stage"
+                        },
+                        {
+                            "boundingBox": "423,797,22,11",
+                            "text": "des"
+                        },
+                        {
+                            "boundingBox": "449,799,50,12",
+                            "text": "Westers"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

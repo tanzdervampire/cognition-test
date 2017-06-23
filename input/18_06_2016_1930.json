@@ -1,0 +1,207 @@
+{
+    "language": "en",
+    "textAngle": 0.0,
+    "orientation": "Up",
+    "regions": [
+        {
+            "boundingBox": "189,199,163,144",
+            "lines": [
+                {
+                    "boundingBox": "226,199,89,23",
+                    "words": [
+                        {
+                            "boundingBox": "226,199,89,23",
+                            "text": "Perfect"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "228,268,101,19",
+                    "words": [
+                        {
+                            "boundingBox": "228,273,28,14",
+                            "text": "DAS"
+                        },
+                        {
+                            "boundingBox": "261,268,68,17",
+                            "text": "MUSICAL"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "189,302,163,22",
+                    "words": [
+                        {
+                            "boundingBox": "189,310,59,14",
+                            "text": "Samstag,"
+                        },
+                        {
+                            "boundingBox": "256,307,20,13",
+                            "text": "1B."
+                        },
+                        {
+                            "boundingBox": "283,305,26,14",
+                            "text": "Juni"
+                        },
+                        {
+                            "boundingBox": "314,302,38,15",
+                            "text": "2010"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "236,328,68,15",
+                    "words": [
+                        {
+                            "boundingBox": "236,329,39,14",
+                            "text": "1900"
+                        },
+                        {
+                            "boundingBox": "281,328,23,13",
+                            "text": "Uhr"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "boundingBox": "164,397,110,129",
+            "lines": [
+                {
+                    "boundingBox": "201,397,66,13",
+                    "words": [
+                        {
+                            "boundingBox": "201,400,21,10",
+                            "text": "\u2022on"
+                        },
+                        {
+                            "boundingBox": "225,397,42,11",
+                            "text": "Krolock"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "164,446,49,10",
+                    "words": [
+                        {
+                            "boundingBox": "164,446,20,10",
+                            "text": "Prof"
+                        },
+                        {
+                            "boundingBox": "185,447,28,8",
+                            "text": "zssot"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "238,472,35,11",
+                    "words": [
+                        {
+                            "boundingBox": "238,472,35,11",
+                            "text": "Magdo"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "234,486,39,10",
+                    "words": [
+                        {
+                            "boundingBox": "234,486,39,10",
+                            "text": "Herbert"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "229,502,45,9",
+                    "words": [
+                        {
+                            "boundingBox": "229,502,45,9",
+                            "text": "Rebecca"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "240,516,34,10",
+                    "words": [
+                        {
+                            "boundingBox": "240,516,34,10",
+                            "text": "Koukol"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "boundingBox": "321,424,54,25",
+            "lines": [
+                {
+                    "boundingBox": "353,424,22,9",
+                    "words": [
+                        {
+                            "boundingBox": "353,424,22,9",
+                            "text": "Ven"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "321,440,44,9",
+                    "words": [
+                        {
+                            "boundingBox": "321,440,44,9",
+                            "text": "Petersen"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "boundingBox": "204,538,129,114",
+            "lines": [
+                {
+                    "boundingBox": "245,538,77,14",
+                    "words": [
+                        {
+                            "boundingBox": "245,538,77,14",
+                            "text": "Jarvsolisten"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "204,565,94,11",
+                    "words": [
+                        {
+                            "boundingBox": "204,566,39,10",
+                            "text": "9-_rrr\u20acd."
+                        },
+                        {
+                            "boundingBox": "247,566,17,9",
+                            "text": "Joe"
+                        },
+                        {
+                            "boundingBox": "267,565,31,11",
+                            "text": "NO'\","
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "250,614,50,10",
+                    "words": [
+                        {
+                            "boundingBox": "250,614,50,10",
+                            "text": "Anzdone,"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "240,637,93,15",
+                    "words": [
+                        {
+                            "boundingBox": "240,637,93,15",
+                            "text": "Tonzensemote"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

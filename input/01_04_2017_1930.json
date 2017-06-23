@@ -1,0 +1,120 @@
+{
+    "language": "el",
+    "textAngle": 1.6999999999999644,
+    "orientation": "Up",
+    "regions": [
+        {
+            "boundingBox": "93,270,601,919",
+            "lines": [
+                {
+                    "boundingBox": "332,270,40,15",
+                    "words": [
+                        {
+                            "boundingBox": "332,270,40,15",
+                            "text": "OAS"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "261,311,254,26",
+                    "words": [
+                        {
+                            "boundingBox": "261,316,106,21",
+                            "text": "Samstag."
+                        },
+                        {
+                            "boundingBox": "375,314,19,17",
+                            "text": "1."
+                        },
+                        {
+                            "boundingBox": "401,313,53,22",
+                            "text": "April"
+                        },
+                        {
+                            "boundingBox": "461,311,54,18",
+                            "text": "2017"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "331,343,109,19",
+                    "words": [
+                        {
+                            "boundingBox": "331,344,61,18",
+                            "text": "19:30"
+                        },
+                        {
+                            "boundingBox": "399,343,41,18",
+                            "text": "\u0399-.\u0399*-\u03b9\u03c4"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "316,667,149,19",
+                    "words": [
+                        {
+                            "boundingBox": "316,667,149,19",
+                            "text": "Tanzsolisten"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "291,745,199,24",
+                    "words": [
+                        {
+                            "boundingBox": "291,745,199,24",
+                            "text": "Gesar\u2022sssolisten"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "305,833,173,19",
+                    "words": [
+                        {
+                            "boundingBox": "305,833,173,19",
+                            "text": "Tanzensemble"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "343,1071,98,26",
+                    "words": [
+                        {
+                            "boundingBox": "343,1071,98,26",
+                            "text": "Diri2\u2022enl"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "93,1162,601,27",
+                    "words": [
+                        {
+                            "boundingBox": "93,1163,32,21",
+                            "text": "\u0395\u03c2"
+                        },
+                        {
+                            "boundingBox": "133,1163,69,26",
+                            "text": "spiett"
+                        },
+                        {
+                            "boundingBox": "209,1163,45,21",
+                            "text": "das"
+                        },
+                        {
+                            "boundingBox": "262,1162,126,22",
+                            "text": "Orchester"
+                        },
+                        {
+                            "boundingBox": "447,1163,126,22",
+                            "text": "Palladium"
+                        },
+                        {
+                            "boundingBox": "580,1164,114,22",
+                            "text": "Theaters"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

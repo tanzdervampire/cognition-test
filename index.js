@@ -162,7 +162,6 @@ const processData = async data => {
 
 (async () => {
     const fn = process.argv[2];
-    //const body = fs.readFileSync(fn);
     const body = fs.createReadStream(fn);
 
     fetch(`${process.env.API_ENDPOINT}?language=de&detectOrientation=true`, {

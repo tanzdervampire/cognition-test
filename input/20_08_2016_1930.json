@@ -1,0 +1,169 @@
+{
+    "language": "de",
+    "textAngle": -2.9000000000000346,
+    "orientation": "Up",
+    "regions": [
+        {
+            "boundingBox": "145,270,139,77",
+            "lines": [
+                {
+                    "boundingBox": "188,270,67,9",
+                    "words": [
+                        {
+                            "boundingBox": "188,270,19,8",
+                            "text": "DAS"
+                        },
+                        {
+                            "boundingBox": "210,271,45,8",
+                            "text": "MUSICAL"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "145,290,139,15",
+                    "words": [
+                        {
+                            "boundingBox": "145,290,50,13",
+                            "text": "Samstag."
+                        },
+                        {
+                            "boundingBox": "199,293,15,9",
+                            "text": "20."
+                        },
+                        {
+                            "boundingBox": "218,293,37,12",
+                            "text": "August"
+                        },
+                        {
+                            "boundingBox": "259,294,25,9",
+                            "text": "2016"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "188,308,50,9",
+                    "words": [
+                        {
+                            "boundingBox": "188,308,28,9",
+                            "text": "19:30"
+                        },
+                        {
+                            "boundingBox": "220,309,18,8",
+                            "text": "Uhr"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "187,335,56,12",
+                    "words": [
+                        {
+                            "boundingBox": "187,335,13,8",
+                            "text": "Bo"
+                        },
+                        {
+                            "boundingBox": "201,336,21,9",
+                            "text": "setz"
+                        },
+                        {
+                            "boundingBox": "223,338,20,9",
+                            "text": "ung"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "boundingBox": "179,377,31,31",
+            "lines": [
+                {
+                    "boundingBox": "184,377,25,8",
+                    "words": [
+                        {
+                            "boundingBox": "184,377,25,8",
+                            "text": "Alfred"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "179,399,31,9",
+                    "words": [
+                        {
+                            "boundingBox": "179,399,31,9",
+                            "text": "Chagal"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "boundingBox": "273,378,15,7",
+            "lines": [
+                {
+                    "boundingBox": "273,378,15,7",
+                    "words": [
+                        {
+                            "boundingBox": "273,378,15,7",
+                            "text": "Von"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "boundingBox": "89,459,251,211",
+            "lines": [
+                {
+                    "boundingBox": "182,459,66,11",
+                    "words": [
+                        {
+                            "boundingBox": "182,459,66,11",
+                            "text": "Tenzselis!en"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "172,493,86,11",
+                    "words": [
+                        {
+                            "boundingBox": "172,493,86,11",
+                            "text": "Gesanasso\"step"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "89,657,251,13",
+                    "words": [
+                        {
+                            "boundingBox": "89,659,28,11",
+                            "text": "spielt"
+                        },
+                        {
+                            "boundingBox": "120,659,19,8",
+                            "text": "das"
+                        },
+                        {
+                            "boundingBox": "142,658,51,9",
+                            "text": "Orchester"
+                        },
+                        {
+                            "boundingBox": "196,658,18,8",
+                            "text": "des"
+                        },
+                        {
+                            "boundingBox": "216,657,30,11",
+                            "text": "St\u2022ge"
+                        },
+                        {
+                            "boundingBox": "250,657,38,10",
+                            "text": "Theater"
+                        },
+                        {
+                            "boundingBox": "312,659,28,9",
+                            "text": "Wob"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

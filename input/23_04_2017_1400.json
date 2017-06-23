@@ -1,0 +1,134 @@
+{
+    "language": "de",
+    "textAngle": 3.3999999999999635,
+    "orientation": "Up",
+    "regions": [
+        {
+            "boundingBox": "296,303,123,48",
+            "lines": [
+                {
+                    "boundingBox": "330,303,68,11",
+                    "words": [
+                        {
+                            "boundingBox": "330,305,19,9",
+                            "text": "DAS"
+                        },
+                        {
+                            "boundingBox": "352,303,46,10",
+                            "text": "MUSICAL"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "296,324,123,15",
+                    "words": [
+                        {
+                            "boundingBox": "296,329,47,10",
+                            "text": "Sonntag."
+                        },
+                        {
+                            "boundingBox": "347,327,15,9",
+                            "text": "23."
+                        },
+                        {
+                            "boundingBox": "365,325,25,12",
+                            "text": "April"
+                        },
+                        {
+                            "boundingBox": "394,324,25,10",
+                            "text": "2017"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "332,341,50,10",
+                    "words": [
+                        {
+                            "boundingBox": "332,341,27,10",
+                            "text": "14:00"
+                        },
+                        {
+                            "boundingBox": "363,341,19,9",
+                            "text": "Uhr"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "boundingBox": "327,399,28,54",
+            "lines": [
+                {
+                    "boundingBox": "329,399,25,8",
+                    "words": [
+                        {
+                            "boundingBox": "329,399,25,8",
+                            "text": "Suah"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "327,444,28,9",
+                    "words": [
+                        {
+                            "boundingBox": "327,444,28,9",
+                            "text": "Magda"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "boundingBox": "385,410,14,6",
+            "lines": [
+                {
+                    "boundingBox": "385,410,14,6",
+                    "words": [
+                        {
+                            "boundingBox": "385,410,14,6",
+                            "text": "van"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "boundingBox": "247,695,246,11",
+            "lines": [
+                {
+                    "boundingBox": "247,695,246,11",
+                    "words": [
+                        {
+                            "boundingBox": "247,695,13,9",
+                            "text": "Es"
+                        },
+                        {
+                            "boundingBox": "263,696,28,10",
+                            "text": "spielt"
+                        },
+                        {
+                            "boundingBox": "294,696,18,9",
+                            "text": "das"
+                        },
+                        {
+                            "boundingBox": "315,696,51,9",
+                            "text": "Orchester"
+                        },
+                        {
+                            "boundingBox": "369,697,19,8",
+                            "text": "des"
+                        },
+                        {
+                            "boundingBox": "391,696,52,10",
+                            "text": "Palladium"
+                        },
+                        {
+                            "boundingBox": "446,697,47,9",
+                            "text": "Theaters"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

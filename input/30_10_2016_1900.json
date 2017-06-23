@@ -1,0 +1,242 @@
+{
+    "language": "en",
+    "textAngle": -4.100000000000036,
+    "orientation": "Up",
+    "regions": [
+        {
+            "boundingBox": "191,285,578,364",
+            "lines": [
+                {
+                    "boundingBox": "191,285,232,29",
+                    "words": [
+                        {
+                            "boundingBox": "191,285,117,29",
+                            "text": "Cratvm"
+                        },
+                        {
+                            "boundingBox": "314,286,109,28",
+                            "text": "Krdock"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "442,337,128,31",
+                    "words": [
+                        {
+                            "boundingBox": "442,337,128,31",
+                            "text": "Worka"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "435,390,252,33",
+                    "words": [
+                        {
+                            "boundingBox": "435,390,62,31",
+                            "text": "Tan"
+                        },
+                        {
+                            "boundingBox": "506,397,55,24",
+                            "text": "M"
+                        },
+                        {
+                            "boundingBox": "629,393,58,30",
+                            "text": "kn"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "258,442,143,29",
+                    "words": [
+                        {
+                            "boundingBox": "258,442,143,29",
+                            "text": "Abromius"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "427,443,90,31",
+                    "words": [
+                        {
+                            "boundingBox": "427,443,90,31",
+                            "text": "Vic&"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "297,496,96,34",
+                    "words": [
+                        {
+                            "boundingBox": "297,496,96,34",
+                            "text": "ChW"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "561,609,208,40",
+                    "words": [
+                        {
+                            "boundingBox": "561,609,208,40",
+                            "text": "Wuetrg"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "boundingBox": "957,227,566,561",
+            "lines": [
+                {
+                    "boundingBox": "1245,227,201,31",
+                    "words": [
+                        {
+                            "boundingBox": "1245,227,201,31",
+                            "text": "Tanzsotisten"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "1121,283,90,31",
+                    "words": [
+                        {
+                            "boundingBox": "1121,283,90,31",
+                            "text": "Kevin"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "1178,323,313,32",
+                    "words": [
+                        {
+                            "boundingBox": "1178,323,175,32",
+                            "text": "Akssa\u00fca"
+                        },
+                        {
+                            "boundingBox": "1363,324,128,31",
+                            "text": "aurri"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "1202,381,255,33",
+                    "words": [
+                        {
+                            "boundingBox": "1202,381,255,33",
+                            "text": "Gesangssoiisten"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "1181,437,280,35",
+                    "words": [
+                        {
+                            "boundingBox": "1181,441,60,26",
+                            "text": "vn"
+                        },
+                        {
+                            "boundingBox": "1250,437,121,35",
+                            "text": "Wisen"
+                        },
+                        {
+                            "boundingBox": "1380,437,81,33",
+                            "text": "KN"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "1202,494,232,32",
+                    "words": [
+                        {
+                            "boundingBox": "1202,494,232,32",
+                            "text": "Tanzensemble"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "986,546,58,32",
+                    "words": [
+                        {
+                            "boundingBox": "986,546,58,32",
+                            "text": "he"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "957,584,566,45",
+                    "words": [
+                        {
+                            "boundingBox": "957,584,136,35",
+                            "text": "Wmika"
+                        },
+                        {
+                            "boundingBox": "1102,588,116,37",
+                            "text": "Enm"
+                        },
+                        {
+                            "boundingBox": "1442,596,81,33",
+                            "text": "Vicki"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "1152,688,290,38",
+                    "words": [
+                        {
+                            "boundingBox": "1152,688,290,38",
+                            "text": "Gesangsensemble"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "1189,744,175,44",
+                    "words": [
+                        {
+                            "boundingBox": "1189,744,73,36",
+                            "text": "Abe"
+                        },
+                        {
+                            "boundingBox": "1270,749,94,39",
+                            "text": "Pyne"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "boundingBox": "435,942,766,120",
+            "lines": [
+                {
+                    "boundingBox": "621,942,124,37",
+                    "words": [
+                        {
+                            "boundingBox": "621,942,124,37",
+                            "text": "Dlrigent"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "767,949,119,35",
+                    "words": [
+                        {
+                            "boundingBox": "767,949,119,35",
+                            "text": "Kri*im"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "435,986,766,76",
+                    "words": [
+                        {
+                            "boundingBox": "435,986,36,34",
+                            "text": "Es"
+                        },
+                        {
+                            "boundingBox": "1127,1025,74,37",
+                            "text": "tar"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

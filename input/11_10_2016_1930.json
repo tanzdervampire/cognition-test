@@ -1,0 +1,61 @@
+{
+    "language": "it",
+    "textAngle": 0.0,
+    "orientation": "Right",
+    "regions": [
+        {
+            "boundingBox": "50,233,365,617",
+            "lines": [
+                {
+                    "boundingBox": "370,233,45,61",
+                    "words": [
+                        {
+                            "boundingBox": "370,233,45,61",
+                            "text": "Ili"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "297,293,44,61",
+                    "words": [
+                        {
+                            "boundingBox": "297,293,44,61",
+                            "text": "Ifi"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "176,288,113,102",
+                    "words": [
+                        {
+                            "boundingBox": "176,300,12,79",
+                            "text": "I"
+                        },
+                        {
+                            "boundingBox": "234,288,55,102",
+                            "text": "Il"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "50,465,67,80",
+                    "words": [
+                        {
+                            "boundingBox": "50,465,67,80",
+                            "text": "01"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "263,789,13,61",
+                    "words": [
+                        {
+                            "boundingBox": "263,789,13,61",
+                            "text": "1"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

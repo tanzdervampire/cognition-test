@@ -1,0 +1,123 @@
+{
+    "language": "en",
+    "textAngle": -1.7000000000000333,
+    "orientation": "Up",
+    "regions": [
+        {
+            "boundingBox": "312,277,135,64",
+            "lines": [
+                {
+                    "boundingBox": "312,277,92,14",
+                    "words": [
+                        {
+                            "boundingBox": "312,277,26,13",
+                            "text": "DAS"
+                        },
+                        {
+                            "boundingBox": "342,278,62,13",
+                            "text": "MUSICAL"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "353,308,94,16",
+                    "words": [
+                        {
+                            "boundingBox": "353,308,20,13",
+                            "text": "28."
+                        },
+                        {
+                            "boundingBox": "378,309,31,15",
+                            "text": "April"
+                        },
+                        {
+                            "boundingBox": "413,309,34,13",
+                            "text": "9016"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "326,328,64,13",
+                    "words": [
+                        {
+                            "boundingBox": "326,328,38,13",
+                            "text": "19:30"
+                        },
+                        {
+                            "boundingBox": "368,329,22,12",
+                            "text": "lh"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "boundingBox": "323,407,27,10",
+            "lines": [
+                {
+                    "boundingBox": "323,407,27,10",
+                    "words": [
+                        {
+                            "boundingBox": "323,407,27,10",
+                            "text": "Sarah"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "boundingBox": "363,408,73,110",
+            "lines": [
+                {
+                    "boundingBox": "363,408,45,10",
+                    "words": [
+                        {
+                            "boundingBox": "363,408,45,10",
+                            "text": "Vercnca"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "395,438,41,9",
+                    "words": [
+                        {
+                            "boundingBox": "395,438,41,9",
+                            "text": "petasen"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "390,508,30,10",
+                    "words": [
+                        {
+                            "boundingBox": "390,508,30,10",
+                            "text": "Bianca"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "boundingBox": "198,762,182,14",
+            "lines": [
+                {
+                    "boundingBox": "198,762,182,14",
+                    "words": [
+                        {
+                            "boundingBox": "198,766,11,9",
+                            "text": "Es"
+                        },
+                        {
+                            "boundingBox": "212,765,30,11",
+                            "text": "spet"
+                        },
+                        {
+                            "boundingBox": "350,762,30,11",
+                            "text": "St\u00ab"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

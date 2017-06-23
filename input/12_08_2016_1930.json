@@ -1,0 +1,120 @@
+{
+    "language": "el",
+    "textAngle": 1.3999999999999646,
+    "orientation": "Up",
+    "regions": [
+        {
+            "boundingBox": "65,162,473,737",
+            "lines": [
+                {
+                    "boundingBox": "236,162,113,15",
+                    "words": [
+                        {
+                            "boundingBox": "236,162,32,15",
+                            "text": "OAS"
+                        },
+                        {
+                            "boundingBox": "273,162,76,14",
+                            "text": "MlJSlCAl"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "259,198,140,18",
+                    "words": [
+                        {
+                            "boundingBox": "259,198,25,16",
+                            "text": "12."
+                        },
+                        {
+                            "boundingBox": "290,199,59,17",
+                            "text": "A8St"
+                        },
+                        {
+                            "boundingBox": "354,198,45,15",
+                            "text": "2016"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "252,224,50,16",
+                    "words": [
+                        {
+                            "boundingBox": "252,224,50,16",
+                            "text": "19:30"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "347,467,42,12",
+                    "words": [
+                        {
+                            "boundingBox": "347,467,42,12",
+                            "text": "Sa-ca"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "351,594,48,16",
+                    "words": [
+                        {
+                            "boundingBox": "351,594,48,16",
+                            "text": "Zc+,gn"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "463,669,49,15",
+                    "words": [
+                        {
+                            "boundingBox": "463,669,49,15",
+                            "text": "Er&s,"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "465,783,49,13",
+                    "words": [
+                        {
+                            "boundingBox": "465,783,49,13",
+                            "text": "Zat&"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "65,879,473,20",
+                    "words": [
+                        {
+                            "boundingBox": "65,882,18,16",
+                            "text": "\u0395\u03c2"
+                        },
+                        {
+                            "boundingBox": "139,881,32,16",
+                            "text": "das"
+                        },
+                        {
+                            "boundingBox": "266,880,33,16",
+                            "text": "des"
+                        },
+                        {
+                            "boundingBox": "305,880,47,19",
+                            "text": "Stse"
+                        },
+                        {
+                            "boundingBox": "357,879,65,16",
+                            "text": "Theater"
+                        },
+                        {
+                            "boundingBox": "426,879,33,16",
+                            "text": "des"
+                        },
+                        {
+                            "boundingBox": "464,879,74,16",
+                            "text": "Westens"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

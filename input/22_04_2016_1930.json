@@ -1,0 +1,210 @@
+{
+    "language": "de",
+    "textAngle": 0.0,
+    "orientation": "Up",
+    "regions": [
+        {
+            "boundingBox": "227,127,140,178",
+            "lines": [
+                {
+                    "boundingBox": "272,127,55,14",
+                    "words": [
+                        {
+                            "boundingBox": "272,127,30,12",
+                            "text": "TANZ"
+                        },
+                        {
+                            "boundingBox": "305,128,22,13",
+                            "text": "DER"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "261,221,78,12",
+                    "words": [
+                        {
+                            "boundingBox": "261,221,23,10",
+                            "text": "DAS"
+                        },
+                        {
+                            "boundingBox": "287,222,52,11",
+                            "text": "MUSICAL"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "227,270,140,18",
+                    "words": [
+                        {
+                            "boundingBox": "227,270,43,16",
+                            "text": "Freitag,"
+                        },
+                        {
+                            "boundingBox": "275,272,20,12",
+                            "text": "99."
+                        },
+                        {
+                            "boundingBox": "299,273,30,15",
+                            "text": "April"
+                        },
+                        {
+                            "boundingBox": "333,274,34,13",
+                            "text": "2016"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "265,292,62,13",
+                    "words": [
+                        {
+                            "boundingBox": "265,292,36,12",
+                            "text": "19:30"
+                        },
+                        {
+                            "boundingBox": "306,293,21,12",
+                            "text": "Uhr"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "boundingBox": "208,351,83,120",
+            "lines": [
+                {
+                    "boundingBox": "208,351,21,10",
+                    "words": [
+                        {
+                            "boundingBox": "208,351,21,10",
+                            "text": "Graf"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "260,381,30,10",
+                    "words": [
+                        {
+                            "boundingBox": "260,381,30,10",
+                            "text": "Nfred"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "241,395,50,10",
+                    "words": [
+                        {
+                            "boundingBox": "241,395,50,10",
+                            "text": "Abtmsk.5"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "258,423,33,10",
+                    "words": [
+                        {
+                            "boundingBox": "258,423,33,10",
+                            "text": "Magda"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "250,449,41,9",
+                    "words": [
+                        {
+                            "boundingBox": "250,449,41,9",
+                            "text": "Rekxcc-a"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "259,463,32,8",
+                    "words": [
+                        {
+                            "boundingBox": "259,463,32,8",
+                            "text": "Ka.*d"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "boundingBox": "303,354,82,80",
+            "lines": [
+                {
+                    "boundingBox": "330,354,33,11",
+                    "words": [
+                        {
+                            "boundingBox": "330,354,33,11",
+                            "text": "Seibert"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "366,384,19,9",
+                    "words": [
+                        {
+                            "boundingBox": "366,384,19,9",
+                            "text": "Ven"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "303,396,29,10",
+                    "words": [
+                        {
+                            "boundingBox": "303,396,29,10",
+                            "text": "Vrctcr"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "332,425,38,9",
+                    "words": [
+                        {
+                            "boundingBox": "332,425,38,9",
+                            "text": "Zeeiny'"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "boundingBox": "160,751,275,11",
+            "lines": [
+                {
+                    "boundingBox": "160,751,275,11",
+                    "words": [
+                        {
+                            "boundingBox": "160,751,10,8",
+                            "text": "Es"
+                        },
+                        {
+                            "boundingBox": "173,751,28,9",
+                            "text": "spien"
+                        },
+                        {
+                            "boundingBox": "204,751,18,8",
+                            "text": "das"
+                        },
+                        {
+                            "boundingBox": "278,752,19,8",
+                            "text": "des"
+                        },
+                        {
+                            "boundingBox": "301,752,27,10",
+                            "text": "Stage"
+                        },
+                        {
+                            "boundingBox": "331,752,38,9",
+                            "text": "Ti*ater"
+                        },
+                        {
+                            "boundingBox": "393,753,42,8",
+                            "text": "Westens"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

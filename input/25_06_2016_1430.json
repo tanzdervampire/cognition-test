@@ -1,0 +1,390 @@
+{
+    "language": "de",
+    "textAngle": 0.0,
+    "orientation": "Up",
+    "regions": [
+        {
+            "boundingBox": "210,210,160,33",
+            "lines": [
+                {
+                    "boundingBox": "241,210,91,10",
+                    "words": [
+                        {
+                            "boundingBox": "241,211,25,9",
+                            "text": "OAS"
+                        },
+                        {
+                            "boundingBox": "271,210,61,9",
+                            "text": "MUSICAL"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "210,231,160,12",
+                    "words": [
+                        {
+                            "boundingBox": "210,232,59,11",
+                            "text": "Sarnstng."
+                        },
+                        {
+                            "boundingBox": "275,232,21,9",
+                            "text": "95."
+                        },
+                        {
+                            "boundingBox": "304,232,24,9",
+                            "text": "Juni"
+                        },
+                        {
+                            "boundingBox": "333,231,37,10",
+                            "text": "9016"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "boundingBox": "230,400,55,9",
+            "lines": [
+                {
+                    "boundingBox": "230,400,55,9",
+                    "words": [
+                        {
+                            "boundingBox": "230,400,55,9",
+                            "text": "Rebecca"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "boundingBox": "304,384,90,38",
+            "lines": [
+                {
+                    "boundingBox": "348,384,21,6",
+                    "words": [
+                        {
+                            "boundingBox": "348,384,21,6",
+                            "text": "van"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "353,395,41,9",
+                    "words": [
+                        {
+                            "boundingBox": "353,395,41,9",
+                            "text": "K\u00f6stler"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "304,410,88,12",
+                    "words": [
+                        {
+                            "boundingBox": "304,411,40,11",
+                            "text": "Michel"
+                        },
+                        {
+                            "boundingBox": "348,410,44,10",
+                            "text": "Driesse"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "boundingBox": "22,433,518,415",
+            "lines": [
+                {
+                    "boundingBox": "247,433,97,16",
+                    "words": [
+                        {
+                            "boundingBox": "247,436,27,13",
+                            "text": "Tao"
+                        },
+                        {
+                            "boundingBox": "275,433,69,15",
+                            "text": "zsolisten"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "148,457,300,20",
+                    "words": [
+                        {
+                            "boundingBox": "148,466,33,11",
+                            "text": "Kevin"
+                        },
+                        {
+                            "boundingBox": "186,465,50,12",
+                            "text": "Schind,"
+                        },
+                        {
+                            "boundingBox": "241,462,31,12",
+                            "text": "M\u00e9t\u00e9"
+                        },
+                        {
+                            "boundingBox": "276,461,48,14",
+                            "text": "Gyenei,"
+                        },
+                        {
+                            "boundingBox": "328,459,71,12",
+                            "text": "Alessandra"
+                        },
+                        {
+                            "boundingBox": "402,457,46,11",
+                            "text": "Bizzorri"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "232,483,132,17",
+                    "words": [
+                        {
+                            "boundingBox": "232,483,132,17",
+                            "text": "Gesangssolisten"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "197,512,205,16",
+                    "words": [
+                        {
+                            "boundingBox": "197,517,50,11",
+                            "text": "Michael"
+                        },
+                        {
+                            "boundingBox": "251,515,68,13",
+                            "text": "Anzalone,"
+                        },
+                        {
+                            "boundingBox": "324,513,24,12",
+                            "text": "Kirill"
+                        },
+                        {
+                            "boundingBox": "352,512,50,14",
+                            "text": "Zolygin"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "246,548,52,11",
+                    "words": [
+                        {
+                            "boundingBox": "246,549,19,10",
+                            "text": "an"
+                        },
+                        {
+                            "boundingBox": "277,548,21,10",
+                            "text": "en"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "104,579,336,22",
+                    "words": [
+                        {
+                            "boundingBox": "104,586,26,13",
+                            "text": "Joe"
+                        },
+                        {
+                            "boundingBox": "135,586,44,15",
+                            "text": "Nolan,"
+                        },
+                        {
+                            "boundingBox": "184,585,42,13",
+                            "text": "Stefan"
+                        },
+                        {
+                            "boundingBox": "231,583,63,15",
+                            "text": "M\u00f6sonyi,"
+                        },
+                        {
+                            "boundingBox": "299,581,45,14",
+                            "text": "Nicola"
+                        },
+                        {
+                            "boundingBox": "347,580,45,15",
+                            "text": "Trazzi,"
+                        },
+                        {
+                            "boundingBox": "397,579,43,13",
+                            "text": ",Astrid"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "136,600,333,19",
+                    "words": [
+                        {
+                            "boundingBox": "136,607,42,12",
+                            "text": "Sanne"
+                        },
+                        {
+                            "boundingBox": "183,604,92,15",
+                            "text": "Buskermolen,"
+                        },
+                        {
+                            "boundingBox": "280,603,33,13",
+                            "text": "Vicki"
+                        },
+                        {
+                            "boundingBox": "318,602,60,15",
+                            "text": "Douglas,"
+                        },
+                        {
+                            "boundingBox": "383,601,47,14",
+                            "text": "Nicole"
+                        },
+                        {
+                            "boundingBox": "434,600,35,12",
+                            "text": "Ohio"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "218,635,171,22",
+                    "words": [
+                        {
+                            "boundingBox": "218,635,171,22",
+                            "text": "Gesangsensemble"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "86,677,437,21",
+                    "words": [
+                        {
+                            "boundingBox": "86,683,57,14",
+                            "text": "Thomas"
+                        },
+                        {
+                            "boundingBox": "148,681,54,17",
+                            "text": "H\u00f6fner,"
+                        },
+                        {
+                            "boundingBox": "208,680,39,14",
+                            "text": "Noah"
+                        },
+                        {
+                            "boundingBox": "252,679,30,17",
+                            "text": "Wlli,"
+                        },
+                        {
+                            "boundingBox": "288,678,43,15",
+                            "text": "Pascal"
+                        },
+                        {
+                            "boundingBox": "337,678,62,17",
+                            "text": "H\u00f6wing,"
+                        },
+                        {
+                            "boundingBox": "404,678,49,14",
+                            "text": "Marina"
+                        },
+                        {
+                            "boundingBox": "457,677,66,18",
+                            "text": "Manig\\io,"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "86,701,439,21",
+                    "words": [
+                        {
+                            "boundingBox": "86,706,71,15",
+                            "text": "Samantha"
+                        },
+                        {
+                            "boundingBox": "162,704,107,18",
+                            "text": "Harris-Hughes,"
+                        },
+                        {
+                            "boundingBox": "275,703,34,18",
+                            "text": "CUT,"
+                        },
+                        {
+                            "boundingBox": "314,703,35,14",
+                            "text": "Fleur"
+                        },
+                        {
+                            "boundingBox": "353,702,54,18",
+                            "text": "Aders,"
+                        },
+                        {
+                            "boundingBox": "412,702,53,15",
+                            "text": "Parneld"
+                        },
+                        {
+                            "boundingBox": "468,701,57,15",
+                            "text": "Lotte\\e"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "270,735,74,23",
+                    "words": [
+                        {
+                            "boundingBox": "270,735,74,23",
+                            "text": "Dirigent"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "255,774,105,17",
+                    "words": [
+                        {
+                            "boundingBox": "255,775,26,16",
+                            "text": "Leif"
+                        },
+                        {
+                            "boundingBox": "286,774,74,17",
+                            "text": "Klinkhardt"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "22,819,518,29",
+                    "words": [
+                        {
+                            "boundingBox": "22,824,22,20",
+                            "text": "Es"
+                        },
+                        {
+                            "boundingBox": "50,823,57,25",
+                            "text": "spielt"
+                        },
+                        {
+                            "boundingBox": "113,822,37,21",
+                            "text": "das"
+                        },
+                        {
+                            "boundingBox": "157,821,105,21",
+                            "text": "Orchester"
+                        },
+                        {
+                            "boundingBox": "268,820,39,20",
+                            "text": "des"
+                        },
+                        {
+                            "boundingBox": "314,820,57,24",
+                            "text": "Stage"
+                        },
+                        {
+                            "boundingBox": "377,819,78,21",
+                            "text": "Theater"
+                        },
+                        {
+                            "boundingBox": "462,819,38,20",
+                            "text": "des"
+                        },
+                        {
+                            "boundingBox": "505,819,35,20",
+                            "text": "We"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
