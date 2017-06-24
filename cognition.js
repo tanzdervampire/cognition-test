@@ -71,7 +71,7 @@ const convertFragment = fragment => {
 const enrichFragment = fragment => {
     return Object.assign({}, fragment, {
         type: FragmentType.UNKNOWN,
-        role: null,
+        role: undefined,
     });
 };
 
@@ -136,7 +136,7 @@ const convertOcrResponse = response => {
         /* … and add some of our own properties. */
         .map(enrichFragment);
 
-    return [...fragments]
+    const data = [...fragments]
         /* Sort by y-value so the following reducer always goes top to bottom. */
         .sort(sortByY)
         /* Calculate the types of each fragment. */
@@ -147,7 +147,9 @@ const convertOcrResponse = response => {
         .filter(line => line)
         /* Sort fragments within a line by x-value. */
         .map(line => [...line].sort(sortByX));
-    // TODO FIXME Group by secondary
+
+    return data
+        .filter(getHeaderFilter(data));
 };
 
 const normalize = str => {
@@ -158,20 +160,20 @@ const normalize = str => {
         .replace(/[\u0300-\u036f]/g, '');
 };
 
-const doesMatch = (a, b) => {
+const matches = (a, b) => {
     const left = normalize(a);
     const right = normalize(b);
     return levenshtein.get(left, right) <= 3;
 };
 
-const isOneOf = (str, roles) => roles.some(role => doesMatch(str, role));
+const matchesAny = (str, roles) => roles.some(role => matches(str, role));
 
 const assignType = fragment => {
     const name = fragment.text;
     // TODO FIXME Extract fragment type detection
     Object.keys(Role).forEach(role => {
         // TODO FIXME Take synonyms into account
-        if (!fragment.type && doesMatch(name, role)) {
+        if (!fragment.type && matches(name, role)) {
             fragment.type = FragmentType.ROLE;
             fragment.role = role;
         }
@@ -202,6 +204,16 @@ const matchNames = (str, candidates) => {
         .filter(name => name);
 };
 
+const getHeaderFilter = data => {
+    const first = data
+        .filter(line => line.some(fragment => fragment.type === FragmentType.ROLE))
+        [0][0];
+
+    return line => {
+        return line.some(fragment => fragment.boundingBox.y >= first.boundingBox.y);
+    };
+};
+
 const extractCast = (data, roleToPersons) => {
     const findMainCast = role => {
         const lines = data
@@ -211,6 +223,7 @@ const extractCast = (data, roleToPersons) => {
             return [];
         }
 
+        // TODO FIXME Filter by center points being …?
         const fragments = lines[0]
             .filter(fragment => fragment.type === FragmentType.NAME);
         if (fragments.length === 0) {
@@ -230,6 +243,8 @@ const extractCast = (data, roleToPersons) => {
 
     const findSecondaryCast = role => {
     };
+
+    // TODO FIXME Remove anything before first of "Besetzung", "Graf von Krolock", …
 
     return Object.keys(Role).map(role => {
         const names = Role[role].isMainCast ? findMainCast(role) : findSecondaryCast(role);
