@@ -76,7 +76,7 @@ const enrichFragment = fragment => {
 };
 
 const sortByX = (left, right) => left.boundingBox.x - right.boundingBox.x;
-const sortByY = (left, right) => left.boundingBox.y - right.y;
+const sortByY = (left, right) => left.boundingBox.y - right.boundingBox.y;
 
 const convertAverageFragmentHeight = fragments => {
     const sum = fragments
@@ -85,7 +85,7 @@ const convertAverageFragmentHeight = fragments => {
     return sum / fragments.length;
 };
 
-const getGroupByReducer = fragments => {
+const getGroupByLineReducer = fragments => {
     const averageFragmentHeight = convertAverageFragmentHeight(fragments);
     const getBucket = y => Math.floor(y / averageFragmentHeight);
 
@@ -139,12 +139,15 @@ const convertOcrResponse = response => {
     return [...fragments]
         /* Sort by y-value so the following reducer always goes top to bottom. */
         .sort(sortByY)
+        /* Calculate the types of each fragment. */
+        .map(assignType)
         /* Group fragments into lines by buckets. */
-        .reduce(getGroupByReducer(fragments), [])
+        .reduce(getGroupByLineReducer(fragments), [])
         /* Remove lines that hold no fragment. */
         .filter(line => line)
         /* Sort fragments within a line by x-value. */
         .map(line => [...line].sort(sortByX));
+    // TODO FIXME Group by secondary
 };
 
 const normalize = str => {
@@ -163,25 +166,23 @@ const doesMatch = (a, b) => {
 
 const isOneOf = (str, roles) => roles.some(role => doesMatch(str, role));
 
-const assignTypes = line => {
-    return line.map(fragment => {
-        const name = fragment.text;
-        // TODO FIXME Extract fragment type detection
-        Object.keys(Role).forEach(role => {
-            // TODO FIXME Take synonyms into account
-            if (!fragment.type && doesMatch(name, role)) {
-                fragment.type = FragmentType.ROLE;
-                fragment.role = role;
-            }
-        });
-
-        // TODO FIXME Recognize Role.OTHER
-        if (!fragment.type) {
-            fragment.type = FragmentType.NAME;
+const assignType = fragment => {
+    const name = fragment.text;
+    // TODO FIXME Extract fragment type detection
+    Object.keys(Role).forEach(role => {
+        // TODO FIXME Take synonyms into account
+        if (!fragment.type && doesMatch(name, role)) {
+            fragment.type = FragmentType.ROLE;
+            fragment.role = role;
         }
-
-        return fragment;
     });
+
+    // TODO FIXME Recognize Role.OTHER
+    if (!fragment.type) {
+        fragment.type = FragmentType.NAME;
+    }
+
+    return fragment;
 };
 
 const matchName = (name, candidates) => {
@@ -227,9 +228,11 @@ const extractCast = (data, roleToPersons) => {
             .reduce(flatten, []);
     };
 
+    const findSecondaryCast = role => {
+    };
+
     return Object.keys(Role).map(role => {
-        // TODO FIXME Also extract other roles
-        const names = Role[role].isMainCast ? findMainCast(role) : [];
+        const names = Role[role].isMainCast ? findMainCast(role) : findSecondaryCast(role);
         return { role, names };
     });
 };
@@ -243,8 +246,7 @@ const main = async () => {
         fetchRoleToPersons(),
     ]);
 
-    const data = convertOcrResponse(ocrResponse)
-        .map(assignTypes);
+    const data = convertOcrResponse(ocrResponse);
     const cast = extractCast(data, roleToPersons);
 
     console.log(JSON.stringify(data, null, 4));
