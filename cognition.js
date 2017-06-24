@@ -117,6 +117,7 @@ const flatten = (x, y) => [...x, ...y];
  *      boundingBox: { x: Number, y: Number, width: Number, height: Number },
  *      text: String,
  *      type: FragmentType,
+ *      role?: String,
  *  }
  *
  * The array itself is sorted on the y-axis from top (y = 0) to bottom (y = max).
