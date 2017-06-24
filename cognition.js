@@ -225,31 +225,51 @@ const extractCast = (data, roleToPersons) => {
             return [];
         }
 
-        // TODO FIXME Filter by center points being …?
-        const fragments = lines[0]
-            .filter(fragment => fragment.type === FragmentType.NAME);
-        if (fragments.length === 0) {
+        const roleFragment = lines[0]
+            .filter(fragment => fragment.role === role)
+            [0];
+
+        return lines[0]
+            /* We are only interested in names. */
+            .filter(fragment => fragment.type === FragmentType.NAME)
+            /* Make sure the name is reasonably close to the role fragment. */
+            .filter(fragment => {
+                return fragment.boundingBox.x <= roleFragment.boundingBox.y + 1.5 * roleFragment.boundingBox.width;
+            });
+    };
+
+    const findSecondaryCast = role => {
+        let foundRoleFragment = false;
+        let foundNextRoleFragment = false;
+        const lines = data
+            .filter(line => {
+                foundNextRoleFragment |= foundRoleFragment && line.some(fragment => fragment.type === FragmentType.ROLE);
+                foundRoleFragment |= line.some(fragment => fragment.role === role);
+                return foundRoleFragment && !foundNextRoleFragment;
+            });
+
+        if (lines.length === 0) {
             return [];
         }
 
+        // TODO Proximity check? Or mark others as done?
+        return lines
+            .reduce(flatten, [])
+            .filter(fragment => fragment.type === FragmentType.NAME);
+    };
+
+    return Object.keys(Role).map(role => {
         const candidates = roleToPersons
             .filter(obj => obj.role === role)
             [0]
             .persons
             .map(person => person.name);
 
-        return fragments
+        const nameFragments = Role[role].isMainCast ? findMainCast(role) : findSecondaryCast(role);
+        const names = nameFragments
             .map(fragment => matchNames(fragment.text, candidates))
             .reduce(flatten, []);
-    };
 
-    const findSecondaryCast = role => {
-    };
-
-    // TODO FIXME Remove anything before first of "Besetzung", "Graf von Krolock", …
-
-    return Object.keys(Role).map(role => {
-        const names = Role[role].isMainCast ? findMainCast(role) : findSecondaryCast(role);
         return { role, names };
     });
 };
