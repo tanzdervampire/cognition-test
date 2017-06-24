@@ -201,6 +201,7 @@ const matchName = (name, candidates) => {
 const matchNames = (str, candidates) => {
     return str
         .split(/\s*[.,]\s*/)
+        .filter(name => name && name.trim().length !== 0)
         .map(name => matchName(name, candidates))
         .filter(name => name);
 };
