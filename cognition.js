@@ -5,7 +5,6 @@ const fetch = require('node-fetch');
 const levenshtein = require('fast-levenshtein');
 
 // TODO FIXME Sometimes role + name get caught in the same fragment. Account for that.
-// TODO FIXME Force only single conductors.
 
 const FragmentType = {
     UNKNOWN: 0,
@@ -15,20 +14,20 @@ const FragmentType = {
 };
 
 const Role = {
-    'Graf von Krolock': { synonyms: [], isMainCast: true, },
-    'Sarah': { synonyms: [], isMainCast: true, },
-    'Alfred': { synonyms: [], isMainCast: true, },
-    'Professor Abronsius': { synonyms: ['Prof. Abronsius'], isMainCast: true, },
-    'Chagal': { synonyms: [], isMainCast: true, },
-    'Magda': { synonyms: [], isMainCast: true, },
-    'Herbert': { synonyms: [], isMainCast: true, },
-    'Rebecca': { synonyms: [], isMainCast: true, },
-    'Koukol': { synonyms: [], isMainCast: true, },
-    'Tanzsolisten': { synonyms: ['Solotänzer'], isMainCast: false, },
-    'Gesangssolisten': { synonyms: [], isMainCast: false, },
-    'Tanzensemble': { synonyms: [], isMainCast: false, },
-    'Gesangsensemble': { synonyms: [], isMainCast: false, },
-    'Dirigent': { synonyms: [], isMainCast: false, },
+    'Graf von Krolock': { synonyms: [], isMainCast: true, singular: true },
+    'Sarah': { synonyms: [], isMainCast: true, singular: true },
+    'Alfred': { synonyms: [], isMainCast: true, singular: true },
+    'Professor Abronsius': { synonyms: ['Prof. Abronsius'], isMainCast: true, singular: true },
+    'Chagal': { synonyms: [], isMainCast: true, singular: true },
+    'Magda': { synonyms: [], isMainCast: true, singular: true },
+    'Herbert': { synonyms: [], isMainCast: true, singular: true },
+    'Rebecca': { synonyms: [], isMainCast: true, singular: true },
+    'Koukol': { synonyms: [], isMainCast: true, singular: true },
+    'Tanzsolisten': { synonyms: ['Solotänzer'], isMainCast: false, singular: false },
+    'Gesangssolisten': { synonyms: [], isMainCast: false, singular: false },
+    'Tanzensemble': { synonyms: [], isMainCast: false, singular: false },
+    'Gesangsensemble': { synonyms: [], isMainCast: false, singular: false },
+    'Dirigent': { synonyms: [], isMainCast: false, singular: true },
 };
 
 const executeOcr = (stream, key) => {
@@ -321,7 +320,8 @@ const extractCast = (data, roleToPersons) => {
         const names = nameFragments
             .map(fragment => matchNames(fragment.text, candidates))
             .reduce(flatten, [])
-            .filter((name, i, all) => all.indexOf(name) === i);
+            .filter((name, i, all) => all.indexOf(name) === i)
+            .filter((name, i) => !Role[role].singular || i === 0 );
 
         return { role, names };
     });

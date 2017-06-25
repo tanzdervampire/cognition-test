@@ -13,10 +13,7 @@
 
 TODO:
 - remove .,/\ form names
-- doesn't deal with Munich screen layout (next to each other)
-- idea: check if main cast roles / names are always two regions
-    → if so, use region distance and then exclude them
-    → if ensemble is always their own region only process that one
+- If main cast has only one fragment per line, split it manually
 
 CONSTRAINTS:
 - Regions are instable both in size and number.
