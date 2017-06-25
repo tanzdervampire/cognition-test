@@ -316,7 +316,8 @@ const extractCast = (data, roleToPersons) => {
         const nameFragments = Role[role].isMainCast ? findMainCast(role) : findSecondaryCast(role);
         const names = nameFragments
             .map(fragment => matchNames(fragment.text, candidates))
-            .reduce(flatten, []);
+            .reduce(flatten, [])
+            .filter((name, i, all) => all.indexOf(name) === i);
 
         return { role, names };
     });
