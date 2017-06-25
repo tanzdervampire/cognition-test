@@ -4,6 +4,9 @@ const fs = require('fs');
 const fetch = require('node-fetch');
 const levenshtein = require('fast-levenshtein');
 
+// TODO FIXME Sometimes role + name get caught in the same fragment. Account for that.
+// TODO FIXME Force only single conductors.
+
 const FragmentType = {
     UNKNOWN: 0,
     ROLE: 1,
@@ -278,6 +281,7 @@ const extractCast = (data, roleToPersons) => {
         const lines = data
             /* First we filter lines between role fragments as much as we can. */
             .filter(line => {
+                // TODO FIXME We need to explicitly only consider secondary cast roles here. 07.012.2016 19:30 Gesangsensemble.
                 foundNextRoleFragment |= foundRoleFragment && line.some(fragment => fragment.type === FragmentType.ROLE);
                 foundRoleFragment |= line.some(fragment => fragment.role === role);
                 return foundRoleFragment && !foundNextRoleFragment;
