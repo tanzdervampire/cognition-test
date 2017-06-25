@@ -281,6 +281,7 @@ const extractCast = (data, roleToPersons) => {
     };
 
     const findSecondaryCast = role => {
+        const secondaryRoles = Object.keys(Role).filter(role => !Role[role].isMainCast);
         const medianLineSpacing = getMedianLineSpacing(data);
 
         let foundRoleFragment = false;
@@ -288,8 +289,8 @@ const extractCast = (data, roleToPersons) => {
         const lines = data
             /* First we filter lines between role fragments as much as we can. */
             .filter(line => {
-                // TODO FIXME We need to explicitly only consider secondary cast roles here. 07.012.2016 19:30 Gesangsensemble.
-                foundNextRoleFragment |= foundRoleFragment && line.some(fragment => fragment.type === FragmentType.ROLE);
+                foundNextRoleFragment |= foundRoleFragment
+                    && line.some(fragment => fragment.role && secondaryRoles.includes(fragment.role));
                 foundRoleFragment |= line.some(fragment => fragment.role === role);
                 return foundRoleFragment && !foundNextRoleFragment;
             })
