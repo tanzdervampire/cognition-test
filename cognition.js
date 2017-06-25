@@ -207,12 +207,12 @@ const matchNames = (str, candidates) => {
 };
 
 const getHeaderFilter = data => {
-    const first = data
-        .filter(line => line.some(fragment => fragment.type === FragmentType.ROLE))
-        [0][0];
+    const roleLines = data
+        .filter(line => line.some(fragment => fragment.type === FragmentType.ROLE));
+    const first = (roleLines.length !== 0 && roleLines[0].length !== 0) ? roleLines[0][0] : null;
 
     return line => {
-        return line.some(fragment => fragment.boundingBox.y >= first.boundingBox.y);
+        return !first || line.some(fragment => fragment.boundingBox.y >= first.boundingBox.y);
     };
 };
 
