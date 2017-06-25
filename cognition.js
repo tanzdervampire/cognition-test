@@ -216,6 +216,38 @@ const getHeaderFilter = data => {
     };
 };
 
+const lineToAverageY = line => {
+    return line
+        .map(fragment => fragment.boundingBox.y + 0.5 * fragment.boundingBox.height)
+        .reduce((avg, y, _, all) => avg + y / all.length, 0);
+};
+
+/**
+ * Returns the median spacing on the y-axis between name fragments.
+ *
+ */
+const getMedianLineSpacing = data => {
+    const spaces = data
+        /* We are only interested in name fragments. */
+        .map(line => line.filter(fragment => fragment.type === FragmentType.NAME))
+        /* Filter out lines that no longer contain a fragment. */
+        .filter(line => line)
+        /* Average the y-coordinate of the fragments per line. */
+        .map(lineToAverageY)
+        /* Now subtract each coordinate from its successor. */
+        .map((y, i, all) => y - (all[i-1] || y))
+        /* Remove the first entry as it will always be 0. */
+        .filter((_, i) => i !== 0)
+        /* Sort the differences */
+        .sort((a, b) => a - b);
+
+    const middle = Math.floor(spaces.length / 2);
+    return spaces.length % 2 === 0
+        ? (spaces[middle - 1] + spaces[middle]) / 2
+        : spaces[middle];
+};
+
+// TODO FIXME Refactor this.
 const extractCast = (data, roleToPersons) => {
     const findMainCast = role => {
         const lines = data
@@ -239,13 +271,29 @@ const extractCast = (data, roleToPersons) => {
     };
 
     const findSecondaryCast = role => {
+        const medianLineSpacing = getMedianLineSpacing(data);
+
         let foundRoleFragment = false;
         let foundNextRoleFragment = false;
         const lines = data
+            /* First we filter lines between role fragments as much as we can. */
             .filter(line => {
                 foundNextRoleFragment |= foundRoleFragment && line.some(fragment => fragment.type === FragmentType.ROLE);
                 foundRoleFragment |= line.some(fragment => fragment.role === role);
                 return foundRoleFragment && !foundNextRoleFragment;
+            })
+            /* Now we also pay attention to line spacing as the next role fragment may not have been recognized. */
+            .filter((line, i, all) => {
+                /* We always take the first two lines since it includes the role fragment, but sometimes
+                 * the conductor appears on the same line so we need to keep it. For the other cases the
+                 * second line is the first line of name fragments. */
+                if (i === 0 || i === 1) {
+                    return true;
+                }
+
+                const last = lineToAverageY(all[i - 1]);
+                const current = lineToAverageY(line);
+                return Math.abs(last - current) <= 2 * medianLineSpacing;
             });
 
         if (lines.length === 0) {
