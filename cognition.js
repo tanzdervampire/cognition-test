@@ -173,16 +173,24 @@ const matchesAny = (str, roles) => roles.some(role => matches(str, role));
 
 const assignType = fragment => {
     const name = fragment.text;
-    // TODO FIXME Extract fragment type detection
+
+    /* Rule out some noise. */
+    if (matchesAny(name, ['Tanz der', 'Vampire', 'Musical'])) {
+        fragment.type = FragmentType.OTHER;
+    }
+
     Object.keys(Role).forEach(role => {
-        // TODO FIXME Take synonyms into account
-        if (!fragment.type && matches(name, role)) {
+        if (fragment.type) {
+            return;
+        }
+
+        if (matchesAny(name, [role, ...Role[role].synonyms])) {
             fragment.type = FragmentType.ROLE;
             fragment.role = role;
         }
     });
 
-    // TODO FIXME Recognize Role.OTHER
+    /* If we haven't found anything else, assume it's a name or list of names. */
     if (!fragment.type) {
         fragment.type = FragmentType.NAME;
     }
