@@ -312,10 +312,19 @@ const extractCast = (data, roleToPersons) => {
             return [];
         }
 
-        // TODO Proximity check? Or mark others as done?
+        const roleFragment = lines[0]
+            .filter(fragment => fragment.role === role)
+            [0];
+
         return lines
             .reduce(flatten, [])
-            .filter(fragment => fragment.type === FragmentType.NAME);
+            .filter(fragment => fragment.type === FragmentType.NAME)
+            /* Make sure to only catch fragments reasonably close to the role fragment. */
+            .filter(fragment => {
+                const centerRoleFragment = roleFragment.boundingBox.x + roleFragment.boundingBox.width / 2;
+                const centerFragment = fragment.boundingBox.x + fragment.boundingBox.width / 2;
+                return Math.abs(centerRoleFragment - centerFragment) <= 1.5 * roleFragment.boundingBox.width;
+            });
     };
 
     return Object.keys(Role).map(role => {
