@@ -1,0 +1,102 @@
+[
+    {
+        "role": "Graf von Krolock",
+        "names": [
+            "Jan Ammann"
+        ]
+    },
+    {
+        "role": "Sarah",
+        "names": [
+            "Veronica Appeddu"
+        ]
+    },
+    {
+        "role": "Alfred",
+        "names": [
+            "Aris Sas"
+        ]
+    },
+    {
+        "role": "Professor Abronsius",
+        "names": [
+            "Victor Petersen"
+        ]
+    },
+    {
+        "role": "Chagal",
+        "names": []
+    },
+    {
+        "role": "Magda",
+        "names": [
+            "Merel Zeeman"
+        ]
+    },
+    {
+        "role": "Herbert",
+        "names": [
+            "Sander van Wissen"
+        ]
+    },
+    {
+        "role": "Rebecca",
+        "names": [
+            "Anne Welte"
+        ]
+    },
+    {
+        "role": "Koukol",
+        "names": [
+            "Kai Helm"
+        ]
+    },
+    {
+        "role": "Tanzsolisten",
+        "names": [
+            "Kevin Schmid",
+            "Máté Gyenei",
+            "Astrid Gollob"
+        ]
+    },
+    {
+        "role": "Gesangssolisten",
+        "names": [
+            "Michael Anzalone",
+            "Kirill Zolygin"
+        ]
+    },
+    {
+        "role": "Tanzensemble",
+        "names": [
+            "Joe Nolan",
+            "Stefan Mosonyi",
+            "Nicola Trazzi",
+            "Veronika Enders",
+            "Katie Allday",
+            "Vicki Douglas",
+            "Nicole Ollio"
+        ]
+    },
+    {
+        "role": "Gesangsensemble",
+        "names": [
+            "Torsten Ankert",
+            "Noah Wili",
+            "Pascal Höwing",
+            "Alex Hyne",
+            "Anne Hoth",
+            "Mona Graw",
+            "Anja Wendzel",
+            "Samantha Harris-Hughes",
+            "Fleur Alders",
+            "Ute Geske"
+        ]
+    },
+    {
+        "role": "Dirigent",
+        "names": [
+            "Leif Klinkhardt"
+        ]
+    }
+]

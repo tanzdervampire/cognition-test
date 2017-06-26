@@ -1,6 +1,5 @@
 require('dotenv').config()
 
-const fs = require('fs');
 const fetch = require('node-fetch');
 const levenshtein = require('fast-levenshtein');
 
@@ -129,6 +128,10 @@ const flatten = (x, y) => [...x, ...y];
  * their x-value.
  */
 const convertOcrResponse = response => {
+    if (!response.regions) {
+        return [];
+    }
+
     const fragments = response.regions
         /* We are not interested in regions, so remove them. */
         .map(region => region.lines)
@@ -345,22 +348,4 @@ const extractCast = (data, roleToPersons) => {
     });
 };
 
-const main = async () => {
-    const fn = process.argv[2];
-    const stream = fs.createReadStream(fn);
-
-    const [ ocrResponse, roleToPersons ] = await Promise.all([
-        executeOcr(stream, process.env.API_KEY),
-        fetchRoleToPersons(),
-    ]);
-
-    const data = convertOcrResponse(ocrResponse);
-    const cast = extractCast(data, roleToPersons);
-
-    console.log(JSON.stringify(data, null, 4));
-    console.log(JSON.stringify(cast, null, 4));
-};
-
-main()
-    .then(() => console.log('Done!'))
-    .catch(err => console.error(err));
+module.exports = { executeOcr, fetchRoleToPersons, convertOcrResponse, extractCast };

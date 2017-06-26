@@ -1,0 +1,91 @@
+[
+    {
+        "role": "Graf von Krolock",
+        "names": []
+    },
+    {
+        "role": "Sarah",
+        "names": []
+    },
+    {
+        "role": "Alfred",
+        "names": []
+    },
+    {
+        "role": "Professor Abronsius",
+        "names": [
+            "Victor Petersen"
+        ]
+    },
+    {
+        "role": "Chagal",
+        "names": []
+    },
+    {
+        "role": "Magda",
+        "names": []
+    },
+    {
+        "role": "Herbert",
+        "names": []
+    },
+    {
+        "role": "Rebecca",
+        "names": [
+            "Yvonne Köstler"
+        ]
+    },
+    {
+        "role": "Koukol",
+        "names": [
+            "Paolo Bianca"
+        ]
+    },
+    {
+        "role": "Tanzsolisten",
+        "names": [
+            "Kevin Schmid",
+            "Máté Gyenei",
+            "Alessandra Bizzarri"
+        ]
+    },
+    {
+        "role": "Gesangssolisten",
+        "names": [
+            "Sander van Wissen",
+            "Kirill Zolygin"
+        ]
+    },
+    {
+        "role": "Tanzensemble",
+        "names": [
+            "Joe Nolan",
+            "Stefan Mosonyi",
+            "Andrew Chadwick",
+            "Alex Hyne",
+            "Veronika Enders",
+            "Katie Allday",
+            "Vicki Douglas",
+            "Nicole Ollio"
+        ]
+    },
+    {
+        "role": "Gesangsensemble",
+        "names": [
+            "Alex Hyne",
+            "Thomas Höfner",
+            "Pascal Höwing",
+            "Samantha Harris-Hughes",
+            "Anja Wendzel",
+            "Karolin Konert",
+            "Sanne Buskermolen",
+            "Pamela Zottele"
+        ]
+    },
+    {
+        "role": "Dirigent",
+        "names": [
+            "Shay Cohen"
+        ]
+    }
+]

@@ -1,0 +1,84 @@
+[
+    {
+        "role": "Graf von Krolock",
+        "names": []
+    },
+    {
+        "role": "Sarah",
+        "names": []
+    },
+    {
+        "role": "Alfred",
+        "names": []
+    },
+    {
+        "role": "Professor Abronsius",
+        "names": [
+            "Victor Petersen"
+        ]
+    },
+    {
+        "role": "Chagal",
+        "names": []
+    },
+    {
+        "role": "Magda",
+        "names": []
+    },
+    {
+        "role": "Herbert",
+        "names": [
+            "Max Meister"
+        ]
+    },
+    {
+        "role": "Rebecca",
+        "names": [
+            "Yvonne Köstler"
+        ]
+    },
+    {
+        "role": "Koukol",
+        "names": [
+            "Paolo Bianca"
+        ]
+    },
+    {
+        "role": "Tanzsolisten",
+        "names": [
+            "Kevin Schmid",
+            "Csaba Nagy",
+            "Alessandra Bizzarri"
+        ]
+    },
+    {
+        "role": "Gesangssolisten",
+        "names": [
+            "Sander van Wissen",
+            "Kirill Zolygin"
+        ]
+    },
+    {
+        "role": "Tanzensemble",
+        "names": [
+            "Joe Nolan",
+            "Máté Gyenei",
+            "Nicola Trazzi",
+            "Veronika Enders"
+        ]
+    },
+    {
+        "role": "Gesangsensemble",
+        "names": [
+            "Gonzalo Campos",
+            "Pascal Höwing",
+            "Marina Maniglio"
+        ]
+    },
+    {
+        "role": "Dirigent",
+        "names": [
+            "Leif Klinkhardt"
+        ]
+    }
+]
