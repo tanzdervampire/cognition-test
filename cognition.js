@@ -289,6 +289,7 @@ const extractCast = (data, roleToPersons) => {
 
         let foundRoleFragment = false;
         let foundNextRoleFragment = false;
+        let exceededSpacing = false;
         const lines = data
             /* First we filter lines between role fragments as much as we can. */
             .filter(line => {
@@ -308,7 +309,8 @@ const extractCast = (data, roleToPersons) => {
 
                 const last = lineToAverageY(all[i - 1]);
                 const current = lineToAverageY(line);
-                return Math.abs(last - current) <= 2 * medianLineSpacing;
+                exceededSpacing |= Math.abs(last - current) > 2 * medianLineSpacing;
+                return !exceededSpacing;
             });
 
         if (lines.length === 0) {
