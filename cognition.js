@@ -90,8 +90,8 @@ const getGroupByLineReducer = fragments => {
     const averageFragmentHeight = convertAverageFragmentHeight(fragments);
     const getBucket = y => Math.floor(y / averageFragmentHeight);
 
-    return (accumulated, obj) => {
-        let bucket = getBucket(obj.boundingBox.y);
+    return (accumulated, fragment) => {
+        let bucket = getBucket(fragment.boundingBox.y);
 
         /* If the bucket doesn't yet exist, but the previous bucket does and has only a single entry,
          * check if that other fragment and this one appear to be on roughly the same line. If they
@@ -99,12 +99,12 @@ const getGroupByLineReducer = fragments => {
          * This counteracts the hard cut-off in the calculation of the bucket itself. */
         if (!accumulated[bucket] && bucket - 1 >= 0  && accumulated[bucket - 1]
             && accumulated[bucket - 1].length === 1
-            && Math.abs(accumulated[bucket - 1][0].boundingBox.y - obj.boundingBox.y) <= averageFragmentHeight / 2) {
+            && Math.abs(accumulated[bucket - 1][0].boundingBox.y - fragment.boundingBox.y) <= averageFragmentHeight / 2) {
 
             bucket--;
         }
 
-        (accumulated[bucket] = accumulated[bucket] || []).push(obj);
+        (accumulated[bucket] = accumulated[bucket] || []).push(fragment);
         return accumulated;
     };
 };
